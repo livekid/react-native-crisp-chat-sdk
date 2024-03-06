@@ -17,7 +17,6 @@ class CrispChatSdkModule(reactContext: ReactApplicationContext) : ReactContextBa
         return "CrispChatSdk"
     }
 
-
     @ReactMethod
     fun configure(websiteId: String) {
         val context = reactApplicationContext
